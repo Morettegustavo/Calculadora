@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
     <header>
         <h1>Calculadora</h1>
     </header>
+
     <main>
-        <div id="res">Aqui vem o resultado</div>
-        <input type="button" value="C"> <!-- Aqui limpa o conteúdo -->
-        <input type="button" value="/"> <!-- Aqui divide -->
-        <input type="button" value="*"> <!-- Aqui multiplica --> <br>
-        <input type="button" value="7">
-        <input type="button" value="8">
-        <input type="button" value="9">
-        <input type="button" value="-"> <!-- Aqui subtraí --> <br>
-        <input type="button" value="4">
-        <input type="button" value="5">
-        <input type="button" value="6">
-        <input type="button" value="+"> <!-- Aqui soma --> <br>
-        <input type="button" value="1">
-        <input type="button" value="2">
-        <input type="button" value="3">
-        <input type="button" value="="> <!-- Aqui calcula --> <br>
-        <input type="button" value="0">
-        <input type="button" value=".">
+        <div id="res"></div>
+        <input type="button" value="C" class="format-botao-grande-orizontal"> <!-- Aqui limpa o conteúdo -->
+        <input type="button" value="/" class="format-botao"> <!-- Aqui divide -->
+        <input type="button" value="*" class="format-botao"> <!-- Aqui multiplica --> <br>
+        <input type="button" value="7" class="format-botao">
+        <input type="button" value="8" class="format-botao">
+        <input type="button" value="9" class="format-botao">
+        <input type="button" value="-" class="format-botao"> <!-- Aqui subtraí --> <br>
+        <input type="button" value="4" class="format-botao">
+        <input type="button" value="5" class="format-botao">
+        <input type="button" value="6" class="format-botao">
+        <input type="button" value="+" class="format-botao"> <!-- Aqui soma --> <br>
+        <input type="button" value="1" class="format-botao">
+        <input type="button" value="2" class="format-botao">
+        <input type="button" value="3" class="format-botao">
+        <input type="button" value="0" class="format-botao-grande-orizontal">
+        <input type="button" value="." class="format-botao">
+        <input type="button" value="=" id="format-botao-igual"> <!-- Aqui calcula --> 
 
     </main>
     <footer>
@@ -36,3 +38,4 @@
     </footer>
 </body>
 </html>
+
