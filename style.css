@@ -21,9 +21,12 @@ header h1{
 }
 
 main{
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     margin-top: 10px;
-    background-color: #121214;
+    background-color: rgb(18, 18, 20);
     height: 490px;
     width:330px;
     padding: 10px 10px 10px 30px;
@@ -31,7 +34,7 @@ main{
     box-shadow: 5px 5px 5px #330f86;
 }
 
-#res{
+#resultado{
     width: 280px;
     height: 10px;
     margin: 20px 0px 20px 6px;
@@ -51,24 +54,14 @@ main{
     border-radius: 5px;
     box-shadow: 2px 2px 2px #9466ff50;
     font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.932);
+
 }
 
-.format-botao-vertical{
-    margin: 5px;
-    width: 65px;
-    height: 135px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px #9466ff50;
-    font-size: 1.2em;
+.format-botao:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
 }
 
-.format-botao-horizontal{
-    margin: 5px;
-    width: 147px;
-    height: 60px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px #9466ff50;
-    font-size: 1.2em;
-}
