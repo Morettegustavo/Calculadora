@@ -3,5 +3,5 @@
 
 * Link para o [Git Pages](https://morettegustavo.github.io/Calculadora/)
 ***
-
+`Em andamento...`
 
