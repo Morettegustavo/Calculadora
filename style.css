@@ -24,17 +24,17 @@ main{
     margin: auto;
     margin-top: 10px;
     background-color: #121214;
-    height: 440px;
-    width:320px;
+    height: 490px;
+    width:330px;
     padding: 10px 10px 10px 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #330f86;
 }
 
 #res{
-    width: 270px;
+    width: 280px;
     height: 10px;
-    margin: 20px 0px;
+    margin: 20px 0px 20px 6px;
     padding: 20px 10px;
     border: solid;
     border-radius: 5px;
@@ -43,9 +43,9 @@ main{
     background-color: rgba(255, 255, 255, 0.932);
 }
 
-.format-botao-grande-orizontal{
+.format-botao{
     margin: 5px;
-    width: 135px;
+    width: 65px;
     height: 60px;
     padding: 10px;
     border-radius: 5px;
@@ -53,21 +53,19 @@ main{
     font-size: 1.2em;
 }
 
-#format-botao-igual{
-    position: absolute;
-    width: 60px;
-    height: 130px;
-    margin-left: 13px;
-    margin-top: -65px;
+.format-botao-vertical{
+    margin: 5px;
+    width: 65px;
+    height: 135px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px #9466ff50;
     font-size: 1.2em;
 }
 
-.format-botao{
+.format-botao-horizontal{
     margin: 5px;
-    width: 60px;
+    width: 147px;
     height: 60px;
     padding: 10px;
     border-radius: 5px;
