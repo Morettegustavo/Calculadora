@@ -21,10 +21,7 @@ header h1{
 }
 
 main{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
     margin-top: 10px;
     background-color: rgb(18, 18, 20);
     height: 490px;
