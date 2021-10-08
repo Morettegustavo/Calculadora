@@ -32,18 +32,33 @@ main{
 }
 
 #resultado{
-    width: 280px;
+    width: 283px;
     height: 15px;
     margin: 20px 0px 20px 6px;
-    padding: 20px 10px;
+    padding: 5px 10px 25px 10px;
     border: solid;
     border-radius: 5px;
-    box-shadow: 3px 3px 3px #9466ff50;
     text-align: right;
     font-size: 1.4em;
     background-color: rgba(255, 255, 255, 0.932);
+    overflow-x: auto;
+    overflow-y: hidden;
 }
-
+/* Barra de rolagem*/
+::-webkit-scrollbar{
+    height: 5px;
+}
+/* trilha (barra de progresso) da barra de rolagem */
+::-webkit-scrollbar-track{
+    background-color: #12121454;
+}
+/* Alça de rolagem arrastável */
+::-webkit-scrollbar-thumb{
+    background-color: #330f86;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #110233de;
+}
 input{
     margin: 5px;
     width: 65px;
